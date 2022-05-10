@@ -8,6 +8,12 @@ public class Main {
         float cantidad=0;
         operativa_cuenta(operacion,cantidad);
     }
+
+    /**
+     * Funcion que recoge todo el codigo
+     * @param operacion es para retirar y ingresar
+     * @param cantidad de la cuenta
+     */
     public static void operativa_cuenta(int operacion,float cantidad){
             CCuenta cuenta1;
             double saldoActual;
